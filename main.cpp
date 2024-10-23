@@ -12,7 +12,6 @@
 // put function declarations here:
 void isFree(int x);
 void batteryState(int x);
-void loader();
 void chargingFinished();
 
 int buttonState1 = 0;
