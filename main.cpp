@@ -34,9 +34,6 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  // digitalWrite(LED_RGB_BLUE, HIGH);
-  // digitalWrite(LED_RGB_GREEN, HIGH);
-  // loader(once);
   isFree(state);
   buttonState1 = digitalRead(BUTTON_1);
   buttonState2 = digitalRead(BUTTON_2);
